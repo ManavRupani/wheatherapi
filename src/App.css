@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.background-image-container {
+  background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1714089600&semt=sph');
+  background-size: cover; /* This ensures the image covers the entire container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 100vh; /* Set the height to fill the viewport */
+}
